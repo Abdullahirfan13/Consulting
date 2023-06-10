@@ -1,0 +1,68 @@
+.bg-lgrey {
+    background-image: linear-gradient(to right, rgb(216, 215, 215), rgb(237, 247, 225));
+}
+.o-circle {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-color: #EA7758;
+    border-radius: 50%;
+}
+.b-img-f {
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/26/13/10/glasses-1280549_960_720.jpg);  
+}
+.b-img-f ,.f-image,.g-image{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.f-image {
+    background-image: url(images/crd1.jpg);
+}
+.g-image {
+    background-image: url(images/crd3.jpg);   
+    background-attachment: fixed;
+}
+.bgrnd-blu {
+    background-color: #4b5f7e;
+}
+.box-th,.box-o,.box-t,.box-fr {
+    width: 200px;
+    height: 70px;
+    display: block;
+}
+.bg-c2{
+    background-color: #BAAC9D;
+}
+.bg-c3{
+    background-color: #53607E;
+}
+.bg-c1{
+    background-color:#F0785A;
+}
+.box-t {
+    background-color:#F0785A;
+}
+.box-th {
+    background-color: #516b8d;
+}
+.box-fr {
+    background-color: #eab058;
+}
+.h-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.owl-item > div {
+    cursor: pointer;
+    margin: 6% 8%;
+    transition: margin 0.4s ease;
+  }
+  .owl-item.center > div {
+    cursor: auto;
+    margin: 0;
+  }
+  .owl-item:not(.center) > div:hover {
+    opacity: .75;
+  }
